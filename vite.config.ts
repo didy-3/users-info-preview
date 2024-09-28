@@ -12,7 +12,7 @@ export default defineConfig({
     }
   },
   base:process.env.NODE_ENV === 'production'
-  ? '/users-info-preview'
+  ? '/users-info-preview/'
   : '/',
   server:{
     port:8080
